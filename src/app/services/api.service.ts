@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
 
-  serverUrl:string = 'http://localhost:4002'
+  serverUrl:string = 'https://employee-management-backend-9rst.onrender.com'
 
   constructor(private http : HttpClient) { }
 
